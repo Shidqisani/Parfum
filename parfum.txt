@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekomendasi Parfum Premium - Setiawanade</title>
+    <style>
+        :root {
+            --primary: #6d28d9;
+            --secondary: #a78bfa;
+            --light: #f5f3ff;
+            --dark: #1e1b4b;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--secondary);
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .affiliate-section {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .affiliate-section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .section-title {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin: 0;
+        }
+        
+        .product-count {
+            background: var(--secondary);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .affiliate-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .affiliate-link {
+            display: block;
+            background: var(--light);
+            padding: 12px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .affiliate-link:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .shop-name {
+            font-weight: bold;
+            color: var(--primary);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: var(--dark);
+        }
+        
+        @media (max-width: 600px) {
+            .affiliate-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>REKOMENDASI PARFUM PREMIUM</h1>
+            <p class="subtitle">Semua link di bawah adalah rekomendasi seller terpercaya</p>
+        </header>
+        
+        <div class="affiliate-section">
+            <div class="section-header">
+                <h2 class="section-title">PARFUM TERLENGKAP & TERPERCAYA</h2>
+                <span class="product-count">76 Produk</span>
+            </div>
+            <div class="affiliate-links">
+                <a href="[LINK_AFFILIATE_1]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Toko A</span> - Koleksi lengkap parfum original
+                </a>
+                <a href="[LINK_AFFILIATE_2]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Toko B</span> - Diskon hingga 40%
+                </a>
+                <a href="[LINK_AFFILIATE_3]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Toko C</span> - Gratis ongkir seluruh Indonesia
+                </a>
+                <a href="[LINK_AFFILIATE_4]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Toko D</span> - Parfum tester harga terjangkau
+                </a>
+            </div>
+        </div>
+        
+        <div class="affiliate-section">
+            <div class="section-header">
+                <h2 class="section-title">KOLEKSI MYKONOS</h2>
+                <span class="product-count">14 Produk</span>
+            </div>
+            <div class="affiliate-links">
+                <a href="[LINK_MYKONOS_1]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Mykonos Store</span> - Official Store
+                </a>
+                <a href="[LINK_MYKONOS_2]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Parfum Luxury</span> - Varian lengkap
+                </a>
+            </div>
+        </div>
+        
+        <div class="affiliate-section">
+            <div class="section-header">
+                <h2 class="section-title">PARFUM IMPORT</h2>
+                <span class="product-count">32 Produk</span>
+            </div>
+            <div class="affiliate-links">
+                <a href="[LINK_IMPORT_1]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Import Luxury</span> - Parfum Eropa
+                </a>
+                <a href="[LINK_IMPORT_2]" class="affiliate-link" target="_blank">
+                    <span class="shop-name">Middle East Fragrance</span> - Parfum Timur Tengah
+                </a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Bergabung dengan komunitas pecinta parfum kami</p>
+            <a href="[LINK_KOMUNITAS]" class="cta-button">Gabung Sekarang</a>
+            <p style="margin-top: 20px;">© 2023 Rekomendasi Parfum Premium. Semua link adalah affiliate link.</p>
+        </footer>
+    </div>
+</body>
+</html>
